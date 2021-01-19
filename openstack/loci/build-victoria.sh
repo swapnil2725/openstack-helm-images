@@ -6,7 +6,7 @@ SCRIPT_DIR=`dirname ${SCRIPT}`
 # Replace with Registry URI with your registry like your
 # dockerhub user. Example: "docker.io/openstackhelm"
 VERSION=${VERSION:-"latest"}
-OPENSTACK_VERSION="stable/ussuri"
+OPENSTACK_VERSION="stable/victoria"
 #pycrypto was dropped after queens so we need to override the defaults
 keystone_pip_packages=${keystone_pip_packages:-"'python-openstackclient'"}
 heat_pip_packages=${heat_pip_packages:-"''"}
