@@ -164,7 +164,7 @@ function get_project_image_build_arguments {
 BASE_IMAGE=${BASE_IMAGE:-"ubuntu:bionic"}
 # Replace with Registry URI with your registry like your
 # dockerhub user. Example: "docker.io/openstackhelm"
-REGISTRY_URI=${REGISTRY_URI:-"172.17.0.1:5000/openstackhelm/"}
+REGISTRY_URI=${REGISTRY_URI:-"swapnil2725"}
 # The image tag used.
 VERSION=${VERSION:-"latest"}
 # The openstack branch to build, if no per project branch is given.
